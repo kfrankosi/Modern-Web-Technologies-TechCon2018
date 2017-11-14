@@ -1,0 +1,10 @@
+<div class="menu">
+    <div class="title">
+        <img src="/assets/logo.png" />
+        <h1>PI World 2018 TechCon Lab - Developing modern technologies with Angular 4 and PI Web API</h1>
+    </div>
+</div>
+<div class="content">
+    <app-left-pane [cities] = "cities"  (onCitySelected)="onCitySelectedFromLeftPane($event)"></app-left-pane>
+    <app-right-pane [cities] = "cities"  (onCitySelected)="onCitySelectedFromRightPane($event)"></app-right-pane>
+</div>

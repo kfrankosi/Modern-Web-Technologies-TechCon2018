@@ -1,0 +1,41 @@
+
+:host { 
+    position: static;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 20%;
+    background-color: #a2b9ee;
+    padding: 0px 0px 0px 0px; 
+    overflow-y: scroll; 
+}
+
+.panel-info hr
+{
+    border-top: 2px solid white;
+    margin: 0 0 0 0;
+}
+
+.panel-info {
+    background-color: #a2b9ee;
+    margin-bottom: 0;
+    color: white;
+}
+
+.panel-info > .panel-heading {
+    padding: 10px 10px 10px 10px;
+    color: #ffffff;
+    background-color: #a2b9ee;
+    border-color: #a2b9ee;
+}
+
+.panel-info:hover > .panel-heading {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.panel-info.selected > .panel-heading {
+    background-color: #16a1ba;
+    border-color: #16a1ba;
+}

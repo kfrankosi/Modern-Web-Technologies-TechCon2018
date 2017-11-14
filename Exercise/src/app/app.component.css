@@ -1,0 +1,30 @@
+﻿
+.menu {
+    height: 100px;
+    width: 100%;
+}
+
+.menu .title{
+    padding-top:10px;
+    padding-left:40px;
+}
+
+.menu .title img{
+    width: 70px;
+    height: 70px;
+    float:left;
+}
+
+.menu .title h1{
+    padding-top: 10px;
+}
+
+
+.content {
+    top: 100px;
+    position: fixed;
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background-color: blue;
+}

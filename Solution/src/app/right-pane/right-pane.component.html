@@ -1,0 +1,2 @@
+<app-map-pane [cities]="cities" [ngClass]="getCSSClasses()" (onCitySelected)="onCitySelectedFromMap($event)"></app-map-pane>
+<app-details-pane [ngClass]="getCSSClasses()" (onCityAttributeSelected)="onCityAttributeSelected($event)"></app-details-pane>

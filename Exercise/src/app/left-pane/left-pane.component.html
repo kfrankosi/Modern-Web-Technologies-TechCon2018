@@ -1,0 +1,8 @@
+<div>
+  <div class="panel-info" id="{{city.name}}" [ngClass]="getCSSClasses(city)"  *ngFor="let city of cities">
+      <div class="panel-heading" (click)="selectCityFromButton(city)">
+          <h3 class="panel-title">{{city.name}}</h3>
+      </div>
+      <hr>
+  </div>
+</div>
