@@ -60,7 +60,6 @@ export class RightPaneComponent implements OnInit {
 
   onCitySelectedFromMap(selectedCity: City) {
     this.applySelectCity(selectedCity);
-    debugger;
     this.onCitySelected.emit(selectedCity);
   }
 

@@ -78,8 +78,6 @@ export class MapPaneComponent implements OnInit {
   {
     this.showTrend = true;
     this.piVisionUrl = this.sanitizer.bypassSecurityTrustResourceUrl(url);
-    // piVisionSafeUrl.changingThisBreaksApplicationSecurity;
-      //window.open(url);
   }
 
   constructor(private sanitizer: DomSanitizer ) { 

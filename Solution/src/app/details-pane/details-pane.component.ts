@@ -72,7 +72,7 @@ export class DetailsPaneComponent implements OnInit {
 
   openPIVision(cityName : string, propertyName : string)
   {
-    let url = "https://marc-web-sql.marc.net/PIVision/#/Displays/AdHoc?DataItems=%5C%5CMARC-PI2016%5CWeather%5C" + cityName.replace(" ", "%20") + "%7C" + propertyName.replace(" ", "%20") + "&mode=kiosk";
+    let url = "https://pisrv01.pischool.int/PIVision/#/Displays/AdHoc?DataItems=%5C%5CPISRV01%5CWeather%5C" + cityName.replace(" ", "%20") + "%7C" + propertyName.replace(" ", "%20") + "&mode=kiosk";
     this.onCityAttributeSelected.emit(url);  
   }
 }

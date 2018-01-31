@@ -8,7 +8,6 @@ import { RightPaneComponent } from './right-pane/right-pane.component';
 import { MapPaneComponent } from './map-pane/map-pane.component';
 import { DetailsPaneComponent } from './details-pane/details-pane.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

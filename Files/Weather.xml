@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OSIsoft.AF.xsd" SchemaVersion="2.0" SoftwareVersion="2.9.1.8106" ExportMode="AllReferences, NoUniqueID, DefaultValues, Flat, SimplifiedConfigStrings" PISystem="MARC-PI2016" Database="Weather" Description="" Created="2017-11-14T18:12:24.8475478Z" id="722a8829-f343-4a6d-b907-ac37ca3a30e2" ParentKey="722a8829-f343-4a6d-b907-ac37ca3a30e2" ExportedObject="Elements" ExportedType="AFElements" Identity="Elements">
+<AF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OSIsoft.AF.xsd" SchemaVersion="2.0" SoftwareVersion="2.9.1.8106" ExportMode="AllReferences, NoUniqueID, DefaultValues, Flat, SimplifiedConfigStrings" PISystem="PISRV01" Database="Weather" Description="" Created="2017-11-14T18:12:24.8475478Z" id="722a8829-f343-4a6d-b907-ac37ca3a30e2" ParentKey="722a8829-f343-4a6d-b907-ac37ca3a30e2" ExportedObject="Elements" ExportedType="AFElements" Identity="Elements">
   <AFElementTemplate>
     <Name>CityTemplate</Name>
     <Description />
@@ -42,7 +42,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM="%";ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R;span=50</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM="%";ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R;span=50</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -75,7 +75,7 @@
       <TypeQualifier />
       <Value type="Double">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM="%";ptclassname=classic;pointtype=Float64;location3=10;location4=1;location5=2;pointsource=R;span=60</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM="%";ptclassname=classic;pointtype=Float64;location3=10;location4=1;location5=2;pointsource=R;span=60</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -140,7 +140,7 @@
       <TypeQualifier />
       <Value type="Double">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM=mm;ptclassname=classic;pointtype=Float64;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM=mm;ptclassname=classic;pointtype=Float64;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -157,7 +157,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -190,7 +190,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM=°C;ptclassname=classic;pointtype=Int32;location2=2;location4=1;pointsource=R;span=30</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM=°C;ptclassname=classic;pointtype=Int32;location2=2;location4=1;pointsource=R;span=30</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -223,7 +223,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM=km;ptclassname=classic;pointtype=Int32;location2=10;location4=1;location5=1;pointsource=R;span=15;zero=30</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM=km;ptclassname=classic;pointtype=Int32;location2=10;location4=1;location5=1;pointsource=R;span=15;zero=30</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -305,7 +305,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM=°;ptclassname=classic;pointtype=Int32;location2=20;location4=1;location5=1;pointsource=R</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM=°;ptclassname=classic;pointtype=Int32;location2=20;location4=1;location5=1;pointsource=R</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
     <AFAttributeTemplate>
@@ -322,7 +322,7 @@
       <TypeQualifier />
       <Value type="Int32">0</Value>
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\%Server%\Weather_%Element%_%Attribute%;UOM=km/h;ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
+      <ConfigString>\\PISRV01\Weather_%Element%_%Attribute%;UOM=km/h;ptclassname=classic;pointtype=Int32;location3=10;location4=1;location5=2;pointsource=R</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttributeTemplate>
   </AFElementTemplate>
@@ -364,7 +364,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -396,7 +396,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -464,7 +464,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -479,7 +479,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -511,7 +511,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -543,7 +543,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -624,7 +624,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -639,7 +639,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Albany_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Albany_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -681,7 +681,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -713,7 +713,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -781,7 +781,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -796,7 +796,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -828,7 +828,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -860,7 +860,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -941,7 +941,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -956,7 +956,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Annapolis_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Annapolis_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -998,7 +998,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1030,7 +1030,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1098,7 +1098,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1113,7 +1113,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1145,7 +1145,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1177,7 +1177,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1258,7 +1258,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1273,7 +1273,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Atlanta_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Atlanta_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -1315,7 +1315,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1347,7 +1347,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1415,7 +1415,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1430,7 +1430,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1462,7 +1462,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1494,7 +1494,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1575,7 +1575,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1590,7 +1590,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Augusta_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Augusta_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -1632,7 +1632,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1664,7 +1664,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1732,7 +1732,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1747,7 +1747,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1779,7 +1779,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1811,7 +1811,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1892,7 +1892,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1907,7 +1907,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Austin_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Austin_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -1949,7 +1949,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -1981,7 +1981,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2049,7 +2049,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2064,7 +2064,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2096,7 +2096,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2128,7 +2128,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2209,7 +2209,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2224,7 +2224,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Baton Rouge_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Baton Rouge_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -2266,7 +2266,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2298,7 +2298,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2366,7 +2366,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2381,7 +2381,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2413,7 +2413,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2445,7 +2445,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2526,7 +2526,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2541,7 +2541,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Bismarck_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Bismarck_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -2583,7 +2583,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2615,7 +2615,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2683,7 +2683,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2698,7 +2698,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2730,7 +2730,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2762,7 +2762,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2843,7 +2843,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2858,7 +2858,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boise_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boise_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -2900,7 +2900,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -2932,7 +2932,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3000,7 +3000,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3015,7 +3015,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3047,7 +3047,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3079,7 +3079,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3160,7 +3160,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3175,7 +3175,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Boston_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Boston_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -3217,7 +3217,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3249,7 +3249,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3317,7 +3317,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3332,7 +3332,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3364,7 +3364,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3396,7 +3396,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3477,7 +3477,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3492,7 +3492,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Carson City_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Carson City_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -3534,7 +3534,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3566,7 +3566,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3634,7 +3634,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3649,7 +3649,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3681,7 +3681,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3713,7 +3713,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3794,7 +3794,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3809,7 +3809,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Charleston_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Charleston_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -3851,7 +3851,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3883,7 +3883,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3951,7 +3951,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3966,7 +3966,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -3998,7 +3998,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4030,7 +4030,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4111,7 +4111,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4126,7 +4126,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Cheyenne_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Cheyenne_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -4168,7 +4168,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4200,7 +4200,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4268,7 +4268,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4283,7 +4283,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4315,7 +4315,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4347,7 +4347,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4428,7 +4428,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4443,7 +4443,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbia_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbia_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -4485,7 +4485,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4517,7 +4517,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4585,7 +4585,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4600,7 +4600,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4632,7 +4632,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4664,7 +4664,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4745,7 +4745,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4760,7 +4760,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Columbus_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Columbus_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -4802,7 +4802,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4834,7 +4834,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4902,7 +4902,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4917,7 +4917,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4949,7 +4949,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -4981,7 +4981,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5062,7 +5062,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5077,7 +5077,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Concord_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Concord_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -5119,7 +5119,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5151,7 +5151,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5219,7 +5219,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5234,7 +5234,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5266,7 +5266,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5298,7 +5298,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5379,7 +5379,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5394,7 +5394,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Denver_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Denver_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -5436,7 +5436,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5468,7 +5468,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5536,7 +5536,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5551,7 +5551,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5583,7 +5583,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5615,7 +5615,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5696,7 +5696,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5711,7 +5711,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Des Moines_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Des Moines_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -5753,7 +5753,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5785,7 +5785,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5853,7 +5853,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5868,7 +5868,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5900,7 +5900,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -5932,7 +5932,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6013,7 +6013,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6028,7 +6028,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Dover_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Dover_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -6070,7 +6070,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6102,7 +6102,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6170,7 +6170,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6185,7 +6185,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6217,7 +6217,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6249,7 +6249,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6330,7 +6330,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6345,7 +6345,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Frankport_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Frankport_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -6387,7 +6387,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6419,7 +6419,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6487,7 +6487,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6502,7 +6502,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6534,7 +6534,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6566,7 +6566,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6647,7 +6647,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6662,7 +6662,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Harrisburg_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Harrisburg_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -6704,7 +6704,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6736,7 +6736,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6804,7 +6804,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6819,7 +6819,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6851,7 +6851,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6883,7 +6883,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6964,7 +6964,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -6979,7 +6979,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Hartford_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Hartford_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -7021,7 +7021,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7053,7 +7053,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7121,7 +7121,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7136,7 +7136,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7168,7 +7168,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7200,7 +7200,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7281,7 +7281,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7296,7 +7296,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Helena_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Helena_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -7338,7 +7338,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7370,7 +7370,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7438,7 +7438,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7453,7 +7453,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7485,7 +7485,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7517,7 +7517,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7598,7 +7598,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7613,7 +7613,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Honolulu_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Honolulu_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -7655,7 +7655,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7687,7 +7687,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7755,7 +7755,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7770,7 +7770,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7802,7 +7802,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7834,7 +7834,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7915,7 +7915,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -7930,7 +7930,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Indianapolis_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Indianapolis_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -7972,7 +7972,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8004,7 +8004,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8072,7 +8072,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8087,7 +8087,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8119,7 +8119,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8151,7 +8151,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8232,7 +8232,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8247,7 +8247,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jackson_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jackson_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -8289,7 +8289,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8321,7 +8321,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8389,7 +8389,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8404,7 +8404,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8436,7 +8436,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8468,7 +8468,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8549,7 +8549,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8564,7 +8564,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Jefferson City_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Jefferson City_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -8606,7 +8606,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8638,7 +8638,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8706,7 +8706,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8721,7 +8721,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8753,7 +8753,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8785,7 +8785,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8866,7 +8866,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8881,7 +8881,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Juneau_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Juneau_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -8923,7 +8923,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -8955,7 +8955,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9023,7 +9023,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9038,7 +9038,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9070,7 +9070,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9102,7 +9102,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9183,7 +9183,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9198,7 +9198,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lansing_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lansing_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -9240,7 +9240,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9272,7 +9272,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9340,7 +9340,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9355,7 +9355,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9387,7 +9387,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9419,7 +9419,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9500,7 +9500,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9515,7 +9515,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Lincoln_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Lincoln_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -9557,7 +9557,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9589,7 +9589,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9657,7 +9657,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9672,7 +9672,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9704,7 +9704,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9736,7 +9736,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9817,7 +9817,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9832,7 +9832,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Little Rock_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Little Rock_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -9874,7 +9874,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9906,7 +9906,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9974,7 +9974,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -9989,7 +9989,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10021,7 +10021,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10053,7 +10053,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10134,7 +10134,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10149,7 +10149,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Madison_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Madison_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -10191,7 +10191,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10223,7 +10223,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10291,7 +10291,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10306,7 +10306,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10338,7 +10338,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10370,7 +10370,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10451,7 +10451,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10466,7 +10466,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montgomery_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montgomery_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -10508,7 +10508,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10540,7 +10540,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10608,7 +10608,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10623,7 +10623,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10655,7 +10655,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10687,7 +10687,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10768,7 +10768,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10783,7 +10783,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Montpelier_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Montpelier_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -10825,7 +10825,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10857,7 +10857,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10925,7 +10925,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10940,7 +10940,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -10972,7 +10972,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11004,7 +11004,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11085,7 +11085,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11100,7 +11100,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Nashville_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Nashville_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -11142,7 +11142,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11174,7 +11174,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11242,7 +11242,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11257,7 +11257,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11289,7 +11289,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11321,7 +11321,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11402,7 +11402,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11417,7 +11417,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Oklahoma City_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Oklahoma City_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -11459,7 +11459,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11491,7 +11491,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11559,7 +11559,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11574,7 +11574,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11606,7 +11606,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11638,7 +11638,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11719,7 +11719,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11734,7 +11734,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Olympia_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Olympia_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -11776,7 +11776,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11808,7 +11808,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11876,7 +11876,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11891,7 +11891,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11923,7 +11923,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -11955,7 +11955,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12036,7 +12036,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12051,7 +12051,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Phoenix_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Phoenix_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -12093,7 +12093,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12125,7 +12125,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12193,7 +12193,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12208,7 +12208,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12240,7 +12240,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12272,7 +12272,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12353,7 +12353,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12368,7 +12368,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Pierre_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Pierre_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -12410,7 +12410,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12442,7 +12442,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12510,7 +12510,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12525,7 +12525,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12557,7 +12557,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12589,7 +12589,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12670,7 +12670,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12685,7 +12685,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Providence_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Providence_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -12727,7 +12727,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12759,7 +12759,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12827,7 +12827,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12842,7 +12842,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12874,7 +12874,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12906,7 +12906,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -12987,7 +12987,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13002,7 +13002,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Raleigh_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Raleigh_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -13044,7 +13044,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13076,7 +13076,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13144,7 +13144,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13159,7 +13159,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13191,7 +13191,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13223,7 +13223,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13304,7 +13304,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13319,7 +13319,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Richmond_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Richmond_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -13361,7 +13361,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13393,7 +13393,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13461,7 +13461,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13476,7 +13476,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13508,7 +13508,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13540,7 +13540,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13621,7 +13621,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13636,7 +13636,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Sacramento_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Sacramento_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -13678,7 +13678,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13710,7 +13710,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13778,7 +13778,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13793,7 +13793,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13825,7 +13825,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13857,7 +13857,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13938,7 +13938,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -13953,7 +13953,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Saint Paul_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Saint Paul_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -13995,7 +13995,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14027,7 +14027,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14095,7 +14095,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14110,7 +14110,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14142,7 +14142,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14174,7 +14174,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14255,7 +14255,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14270,7 +14270,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salem_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salem_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -14312,7 +14312,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14344,7 +14344,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14412,7 +14412,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14427,7 +14427,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14459,7 +14459,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14491,7 +14491,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14572,7 +14572,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14587,7 +14587,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Salt Lake City_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Salt Lake City_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -14629,7 +14629,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14661,7 +14661,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14729,7 +14729,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14744,7 +14744,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14776,7 +14776,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14808,7 +14808,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14889,7 +14889,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14904,7 +14904,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Santa Fe_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Santa Fe_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -14946,7 +14946,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -14978,7 +14978,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15046,7 +15046,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15061,7 +15061,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15093,7 +15093,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15125,7 +15125,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15206,7 +15206,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15221,7 +15221,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Springfield_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Springfield_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -15263,7 +15263,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15295,7 +15295,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15363,7 +15363,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15378,7 +15378,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15410,7 +15410,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15442,7 +15442,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15523,7 +15523,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15538,7 +15538,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Tallahassee_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Tallahassee_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -15580,7 +15580,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15612,7 +15612,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15680,7 +15680,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15695,7 +15695,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15727,7 +15727,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15759,7 +15759,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15840,7 +15840,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15855,7 +15855,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Topeka_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Topeka_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>
@@ -15897,7 +15897,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Cloud Cover;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Cloud Cover;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15929,7 +15929,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Humidity;UOM="%"</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Humidity;UOM="%"</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -15997,7 +15997,7 @@
       <Type>Double</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Precipitation;UOM=mm</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Precipitation;UOM=mm</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -16012,7 +16012,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Pressure</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Pressure</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -16044,7 +16044,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Temperature;UOM=°C</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Temperature;UOM=°C</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -16076,7 +16076,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Visibility;UOM=km</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Visibility;UOM=km</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -16157,7 +16157,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Wind Direction;UOM=°</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Wind Direction;UOM=°</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
     <AFAttribute>
@@ -16172,7 +16172,7 @@
       <Type>Int32</Type>
       <TypeQualifier />
       <DataReference>PI Point</DataReference>
-      <ConfigString>\\marc-pi2016\Weather_Trenton_Wind Speed;UOM=km/h</ConfigString>
+      <ConfigString>\\PISRV01\Weather_Trenton_Wind Speed;UOM=km/h</ConfigString>
       <AFAttributeCategoryRef>Historical Weather data</AFAttributeCategoryRef>
     </AFAttribute>
   </AFElement>

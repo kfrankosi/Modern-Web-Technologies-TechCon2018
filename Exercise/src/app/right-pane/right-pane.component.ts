@@ -35,7 +35,7 @@ export class RightPaneComponent implements OnInit {
   {
     this.startMode = true;
 	//Exercise 3
-
+	
     this.mapPane.applySelectCity(selectedCity);
 
   }
@@ -56,7 +56,6 @@ export class RightPaneComponent implements OnInit {
 
   onCitySelectedFromMap(selectedCity: City) {
     this.applySelectCity(selectedCity);
-    debugger;
     this.onCitySelected.emit(selectedCity);
   }
 

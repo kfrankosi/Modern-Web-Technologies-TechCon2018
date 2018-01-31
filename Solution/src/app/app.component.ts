@@ -115,7 +115,7 @@ export class AppComponent implements OnInit {
 
 
   getDataNoBatch() {
-    this.piWebAPIService.assetDatabase.getByPath('\\\\MARC-PI2016\\Weather').subscribe(piAssetDatabase => {
+    this.piWebAPIService.assetDatabase.getByPath('\\\\PISRV01\\Weather').subscribe(piAssetDatabase => {
       Observable.forkJoin(
         this.piWebAPIService.assetDatabase.getElements(piAssetDatabase.WebId),
         this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Latitude"),
@@ -165,11 +165,11 @@ export class AppComponent implements OnInit {
 
   getDataWithBatch() {
 
-    let baseUrl = "https://marc-web-sql.marc.net/piwebapi/";
+    let baseUrl = "https://pisrv01.pischool.int/piwebapi/";
     let globalRequest : { [key: string]: PIRequest; } = {};
     globalRequest['1'] = new PIRequest();
     globalRequest['1'].Method = "GET";
-    globalRequest['1'].Resource = baseUrl + "assetdatabases?path=\\\\MARC-PI2016\\Weather";
+    globalRequest['1'].Resource = baseUrl + "assetdatabases?path=\\\\PISRV01\\Weather";
     globalRequest['2'] = new PIRequest();
     globalRequest['2'].Method = "GET";
     globalRequest['2'].Resource = baseUrl + "assetdatabases/{0}/elements";
@@ -209,7 +209,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.piWebAPIService.configureInstance("https://marc-web-sql.marc.net/piwebapi/", true);
+    this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
     //this.getDataNoBatch();
     this.getDataWithBatch();
 

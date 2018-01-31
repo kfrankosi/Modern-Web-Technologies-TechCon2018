@@ -15,7 +15,7 @@ export class DetailsPaneComponent implements OnInit {
   selectedCity : City;
 
   //Exercise 4
-  
+
   constructor(private ref: ChangeDetectorRef) {
     this.city = new City();
     setInterval(() => {
@@ -72,6 +72,6 @@ export class DetailsPaneComponent implements OnInit {
 
   openPIVision(cityName : string, propertyName : string)
   {
-	//Exercise 4
+	//Exercise 4 
   }
 }

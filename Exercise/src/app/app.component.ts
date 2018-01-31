@@ -147,9 +147,9 @@ export class AppComponent implements OnInit {
 
   getDataWithBatch() {
 
-    let baseUrl = "https://marc-web-sql.marc.net/piwebapi/";
+    let baseUrl = "https://pisrv01.pischool.int/piwebapi/";
     let globalRequest : { [key: string]: PIRequest; } = {};
-	//Exercise 5
+   	//Exercise 5
     
     this.piWebAPIService.batch.execute(globalRequest).subscribe(res => {
          this.processResponseWithBatch(res);
@@ -160,9 +160,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.piWebAPIService.configureInstance("https://marc-web-sql.marc.net/piwebapi/", true);
-    this.getDataNoBatch();
-    //this.getDataWithBatch();
+    this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
+    //this.getDataNoBatch();
+    this.getDataWithBatch();
 
   }
 

@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "tech-con2018"
+    "name": "solution"
   },
   "apps": [
     {
@@ -55,9 +55,6 @@
   },
   "defaults": {
     "styleExt": "css",
-    "class": {
-      "spec": false
-    },
     "component": {}
   }
 }
