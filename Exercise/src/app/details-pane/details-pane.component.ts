@@ -14,7 +14,7 @@ export class DetailsPaneComponent implements OnInit {
   city : City;
   selectedCity : City;
 
-  //Exercise 4
+  @Output() onCityAttributeSelected = new EventEmitter<string>();
 
   constructor(private ref: ChangeDetectorRef) {
     this.city = new City();
@@ -30,48 +30,11 @@ export class DetailsPaneComponent implements OnInit {
   ngOnInit() {
   }
 
-  showValues(selectedCity : City, cityValues : PIItemsStreamValue)
-  {
-    for (let item of cityValues.Items)
-    {
-      if (item.Name == "Wikipedia Description")
-      {
-        selectedCity.wikipediaDescription = item.Value.Value;
-      }
-      else if (item.Name == "Wikipedia Title")
-      {
-        selectedCity.wikipediaTitle = item.Value.Value;
-      }
-      else if (item.Name == "Wikipedia Thumbnail Url")
-      {
-        selectedCity.imageUrl = item.Value.Value;
-      }
-      else if (item.Name == "Cloud Cover")
-      {
-        selectedCity.cloudCover  = item.Value.Value;
-      }
-      else if (item.Name == "Humidity")
-      {
-        selectedCity.humidity = item.Value.Value;
-      }
-      else if (item.Name == "Temperature")
-      {
-        selectedCity.temperature = item.Value.Value;
-      }  
-      else if (item.Name == "Pressure")
-      {
-        selectedCity.pressure = item.Value.Value;
-      } 
-      else if (item.Name == "Wind Speed")
-      {
-        selectedCity.windSpeed = item.Value.Value;
-      }    
-    }
-    this.selectedCity = selectedCity;
-  }
+   //Exercise 3 
 
   openPIVision(cityName : string, propertyName : string)
   {
 	//Exercise 4 
+	this.onCityAttributeSelected.emit(url);  
   }
 }

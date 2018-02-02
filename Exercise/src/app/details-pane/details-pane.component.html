@@ -4,13 +4,14 @@
 <div *ngIf="city != null && city.imageUrl != null" class="city-img">
     <img [src]="city.imageUrl" />
 </div>
-<div class="live-data">
-    <p><a href="#" (click)="openPIVision(city.name, 'Cloud Cover')" ><b>Cloud cover: {{city.cloudCover}}%</b></a></p>
-    <p><a href="#" (click)="openPIVision(city.name, 'Humidity')"><b>Humidity: {{(city.humidity +30) | number : '1.2-2'}}%</b></a></p>
-    <p><a href="#" (click)="openPIVision(city.name, 'Temperature')"><b>Temperature: {{city.temperature}} °C</b></a></p>
-    <p><a href="#" (click)="openPIVision(city.name, 'Pressure')"><b>Pressure: {{city.pressure}} mm</b></a></p>
-    <p><a href="#" (click)="openPIVision(city.name, 'Wind Speed')"><b>Wind Speed: {{city.windSpeed}} km/h</b></a></p>
-</div>
+<!-- Exercise 3 and 4 -->
+<!-- <div class="live-data"> -->
+    <!-- <p><a href="#"><b>Cloud cover: {{city.cloudCover}}%</b></a></p> -->
+    <!-- <p><a href="#"><b>Humidity: {{(city.humidity +30) | number : '1.2-2'}}%</b></a></p> -->
+    <!-- <p><a href="#"><b>Temperature: {{city.temperature}} °C</b></a></p> -->
+    <!-- <p><a href="#"><b>Pressure: {{city.pressure}} mm</b></a></p> -->
+    <!-- <p><a href="#"><b>Wind Speed: {{city.windSpeed}} km/h</b></a></p> -->
+<!-- </div> -->
 
 
 <div class="description">
