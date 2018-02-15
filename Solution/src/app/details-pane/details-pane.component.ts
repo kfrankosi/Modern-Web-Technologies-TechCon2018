@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { PIElement, PIItemsStreamValue, PIStreamValue, PIStreamValues } from 'angular-piwebapi';
+import { PIElement, PIItemsStreamValue, PIStreamValue, PIStreamValues, PIItemsSummaryValue } from 'angular-piwebapi';
 import { City } from '../city'
 import { ChangeDetectorRef } from '@angular/core';
 
@@ -30,6 +30,26 @@ export class DetailsPaneComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  showTemperatureRange(values : PIItemsSummaryValue)
+  {
+    for (let item of values.Items)
+    {
+      if (item.Type == "Minimum")
+      {
+          this.selectedCity.min_temp = item.Value.Value;
+      }
+      if (item.Type == "Average")
+      {
+          this.selectedCity.avg_temp = item.Value.Value;
+      }
+      if (item.Type == "Maximum")
+      {
+          this.selectedCity.max_temp  = item.Value.Value;
+      }
+    }
+  }
+
   showValues(selectedCity : City, cityValues : PIItemsStreamValue)
   {
     for (let item of cityValues.Items)
@@ -57,6 +77,7 @@ export class DetailsPaneComponent implements OnInit {
       else if (item.Name == "Temperature")
       {
         selectedCity.temperature = item.Value.Value;
+        selectedCity.temperatureWebId = item.WebId;
       }  
       else if (item.Name == "Pressure")
       {

@@ -12,6 +12,7 @@ export class City {
     cloudCover : number;
     humidity: number;
     temperature: number;
+    temperatureWebId : string;
     pressure: number;
     windSpeed: number;
     visibility: number;
@@ -19,4 +20,7 @@ export class City {
     longitude: number;
     latitudeWebId: string;
     longitudeWebId: string;
+    max_temp: number;
+    avg_temp: number;
+    min_temp: number;
  }
