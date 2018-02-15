@@ -115,11 +115,11 @@ export class AppComponent implements OnInit {
 
 
   getDataNoBatch() {
-    this.piWebAPIService.assetDatabase.getByPath('\\\\PISRV01\\Weather').subscribe(piAssetDatabase => {
+    this.piWebAPIService.assetDatabase.getByPath('\\\\PISRV01\\Weather', "webId").subscribe(piAssetDatabase => {
       Observable.forkJoin(
-        this.piWebAPIService.assetDatabase.getElements(piAssetDatabase.WebId),
-        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Latitude"),
-        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Longitude"))
+        this.piWebAPIService.assetDatabase.getElements(piAssetDatabase.WebId, null, null, null, null, null, null, "items.webId;items.name;items.path"),
+        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Latitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"),
+        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Longitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"))
         .subscribe(res => this.processResponses(res));
 
     }, error => {
@@ -169,20 +169,20 @@ export class AppComponent implements OnInit {
     let globalRequest : { [key: string]: PIRequest; } = {};
     globalRequest['1'] = new PIRequest();
     globalRequest['1'].Method = "GET";
-    globalRequest['1'].Resource = baseUrl + "assetdatabases?path=\\\\PISRV01\\Weather";
+    globalRequest['1'].Resource = baseUrl + "assetdatabases?path=\\\\PISRV01\\Weather&selectedFields=webId";
     globalRequest['2'] = new PIRequest();
     globalRequest['2'].Method = "GET";
-    globalRequest['2'].Resource = baseUrl + "assetdatabases/{0}/elements";
+    globalRequest['2'].Resource = baseUrl + "assetdatabases/{0}/elements?selectedFields=items.webId;items.name;items.path";
     globalRequest['2'].Parameters = ["$.1.Content.WebId"];
     globalRequest['2'].ParentIds = ["1"];
     globalRequest['3'] = new PIRequest();
     globalRequest['3'].Method = "GET";
-    globalRequest['3'].Resource = baseUrl + "assetdatabases/{0}/elementattributes?attributeNameFilter=*Latitude*";
+    globalRequest['3'].Resource = baseUrl + "assetdatabases/{0}/elementattributes?attributeNameFilter=*Latitude*&selectedFields=items.webId;items.name;items.path";
     globalRequest['3'].Parameters = ["$.1.Content.WebId"];
     globalRequest['3'].ParentIds = ["1"];
     globalRequest['4'] = new PIRequest();
     globalRequest['4'].Method = "GET";
-    globalRequest['4'].Resource = baseUrl + "assetdatabases/{0}/elementattributes?attributeNameFilter=*Longitude*",
+    globalRequest['4'].Resource = baseUrl + "assetdatabases/{0}/elementattributes?attributeNameFilter=*Longitude*&selectedFields=items.webId;items.name;items.path";
     globalRequest['4'].Parameters = ["$.1.Content.WebId"],
     globalRequest['4'].ParentIds = ["1"];
     globalRequest['5'] = new PIRequest();
@@ -210,8 +210,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
-    //this.getDataNoBatch();
-    this.getDataWithBatch();
+    this.getDataNoBatch();
+    //this.getDataWithBatch();
 
   }
 
