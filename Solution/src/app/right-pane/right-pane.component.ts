@@ -34,6 +34,7 @@ export class RightPaneComponent implements OnInit {
   applySelectCity(selectedCity : City)
   {
     this.startMode = true;
+	//TODO: Exercise 3	
     this.piWebAPIService.streamSet.getValues(selectedCity.webId, null, null, null, "items.webid;items.value.value;items.name").subscribe(cityValues => {  
       this.detailsPane.showValues(selectedCity, cityValues);
       this.piWebAPIService.stream.getSummary(selectedCity.temperatureWebId, null, "t", null, null, null, null, "t-7d", null, ["Average", "Minimum", "Maximum"]).subscribe(values => {
@@ -43,7 +44,7 @@ export class RightPaneComponent implements OnInit {
     }, error => {
         console.log(error.json());
     });
-
+	//TODO: Exercise 3	
     this.mapPane.applySelectCity(selectedCity);
 
   }

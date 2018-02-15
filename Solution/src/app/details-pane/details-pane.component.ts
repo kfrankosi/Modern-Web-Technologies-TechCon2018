@@ -30,7 +30,7 @@ export class DetailsPaneComponent implements OnInit {
   ngOnInit() {
   }
 
-
+  //TODO: Exercise 3
   showTemperatureRange(values : PIItemsSummaryValue)
   {
     for (let item of values.Items)
@@ -90,10 +90,16 @@ export class DetailsPaneComponent implements OnInit {
     }
     this.selectedCity = selectedCity;
   }
-
+  //TODO: Exercise 3
+	
+	
+	
+	
   openPIVision(cityName : string, propertyName : string)
   {
+	//TODO: Exercise 4
     let url = "https://pisrv01.pischool.int/PIVision/#/Displays/AdHoc?DataItems=%5C%5CPISRV01%5CWeather%5C" + cityName.replace(" ", "%20") + "%7C" + propertyName.replace(" ", "%20") + "&mode=kiosk";
+    //TODO: Exercise 4
     this.onCityAttributeSelected.emit(url);  
   }
 }

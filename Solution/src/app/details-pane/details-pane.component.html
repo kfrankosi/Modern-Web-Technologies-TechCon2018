@@ -4,6 +4,7 @@
 <div *ngIf="city != null && city.imageUrl != null" class="city-img">
     <img [src]="city.imageUrl" />
 </div>
+<!-- TODO: Exercise 3 and 4 -->
 <div class="live-data">
     <p><a href="#" (click)="openPIVision(city.name, 'Cloud Cover')" ><b>Cloud cover: {{city.cloudCover}}%</b></a></p>
     <p><a href="#" (click)="openPIVision(city.name, 'Humidity')"><b>Humidity: {{(city.humidity +30) | number : '1.2-2'}}%</b></a></p>
@@ -17,6 +18,7 @@
     <p><a href="#"><b>Avg Temperature: {{city.avg_temp}} °C</b></a></p>
     <p><a href="#"><b>Max Temperature: {{city.max_temp}} °C</b></a></p>
 </div>
+<!-- TODO: Exercise 3 and 4 -->
 
 
 <div class="description">

@@ -30,11 +30,13 @@ export class DetailsPaneComponent implements OnInit {
   ngOnInit() {
   }
 
-   //Exercise 3 
+  //TODO: Exercise 3
 
   openPIVision(cityName : string, propertyName : string)
   {
-	//Exercise 4 
+	//TODO: Exercise 4
+	let url = ""
+	//TODO: Exercise 4
 	this.onCityAttributeSelected.emit(url);  
   }
 }

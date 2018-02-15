@@ -97,9 +97,9 @@ export class AppComponent implements OnInit {
       cities[count].longitudeWebId = this.findAttributeWebId(cities[count].name, longitudeAttributes)
       webIds.push(cities[count].latitudeWebId);
       webIds.push(cities[count].longitudeWebId);
-      count++;
-      
+      count++;      
     }
+	//TODO: Exercise 2
     this.piWebAPIService.streamSet.getValuesAdHoc(webIds).subscribe(data => {
       let count = 0;
       for (let city of cities)
@@ -110,11 +110,13 @@ export class AppComponent implements OnInit {
         }
         this.cities = cities;
     })
+	//TODO: Exercise 2
   }
 
 
 
   getDataNoBatch() {
+	//TODO: Exercise 1
     this.piWebAPIService.assetDatabase.getByPath('\\\\PISRV01\\Weather', "webId").subscribe(piAssetDatabase => {
       Observable.forkJoin(
         this.piWebAPIService.assetDatabase.getElements(piAssetDatabase.WebId, null, null, null, null, null, null, "items.webId;items.name;items.path"),
@@ -125,6 +127,7 @@ export class AppComponent implements OnInit {
     }, error => {
         console.log(error.json());
     });
+	//TODO: Exercise 1
   }
 
 
@@ -167,6 +170,7 @@ export class AppComponent implements OnInit {
 
     let baseUrl = "https://pisrv01.pischool.int/piwebapi/";
     let globalRequest : { [key: string]: PIRequest; } = {};
+	//TODO: Exercise 5	
     globalRequest['1'] = new PIRequest();
     globalRequest['1'].Method = "GET";
     globalRequest['1'].Resource = baseUrl + "assetdatabases?path=\\\\PISRV01\\Weather&selectedFields=webId";
@@ -199,7 +203,7 @@ export class AppComponent implements OnInit {
     globalRequest['6'].RequestTemplate = {
       Resource: baseUrl + "streams/{0}/value"
     };
-    
+	//TODO: Exercise 5	
     this.piWebAPIService.batch.execute(globalRequest).subscribe(res => {
          this.processResponseWithBatch(res);
       }, error => {
@@ -210,7 +214,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
+	//For Exercise 1
     this.getDataNoBatch();
+	
+	//For Exercise 5 (Batch)
     //this.getDataWithBatch();
 
   }

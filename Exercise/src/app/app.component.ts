@@ -100,14 +100,15 @@ export class AppComponent implements OnInit {
       count++;
       
     }
-	//Exercise 2
+	//TODO: Exercise 2
 	this.cities = cities;
+	//TODO: Exercise 2
   }
 
 
 
   getDataNoBatch() {
-	//Exercise 1
+	//TODO: Exercise 1
   }
 
 
@@ -162,7 +163,11 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
+	
+	//For Exercise 1
     this.getDataNoBatch();
+	
+	//For Exercise 5 (Batch)
     //this.getDataWithBatch();
 
   }
