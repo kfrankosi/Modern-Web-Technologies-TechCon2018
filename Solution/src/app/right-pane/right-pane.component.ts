@@ -37,7 +37,7 @@ export class RightPaneComponent implements OnInit {
 	//TODO: Exercise 3	
     this.piWebAPIService.streamSet.getValues(selectedCity.webId, null, null, null, "items.webid;items.value.value;items.name").subscribe(cityValues => {  
       this.detailsPane.showValues(selectedCity, cityValues);
-      this.piWebAPIService.stream.getSummary(selectedCity.temperatureWebId, null, "t", null, null, null, null, "t-7d", null, ["Average", "Minimum", "Maximum"]).subscribe(values => {
+      this.piWebAPIService.stream.getSummary(selectedCity.temperatureWebId, null, "*", null, null, null, null, "*-1d", null, ["Average", "Minimum", "Maximum"]).subscribe(values => {
         this.detailsPane.showTemperatureRange(values);
       });  
      
