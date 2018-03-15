@@ -117,16 +117,14 @@ export class AppComponent implements OnInit {
 
   getDataNoBatch() {
 	//TODO: Exercise 1
-    this.piWebAPIService.assetDatabase.getByPath('\\\\PISRV01\\Weather', "webId").subscribe(piAssetDatabase => {
-      Observable.forkJoin(
-        this.piWebAPIService.assetDatabase.getElements(piAssetDatabase.WebId, null, null, null, null, null, null, "items.webId;items.name;items.path"),
-        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Latitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"),
-        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabase.WebId, null, null, "Longitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"))
+    let piAssetDatabaseWebId = this.piWebAPIService.webIdHelper.generateWebIdByPath('\\\\PISRV01\\Weather', PIAssetDatabase.name, null);
+    Observable.forkJoin(
+        this.piWebAPIService.assetDatabase.getElements(piAssetDatabaseWebId, null, null, null, null, null, null, "items.webId;items.name;items.path"),
+        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabaseWebId, null, null, "Latitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"),
+        this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabaseWebId, null, null, "Longitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"))
         .subscribe(res => this.processResponses(res));
 
-    }, error => {
-        console.log(error.json());
-    });
+
 	//TODO: Exercise 1
   }
 
