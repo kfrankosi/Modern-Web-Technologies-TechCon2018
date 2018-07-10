@@ -117,7 +117,7 @@ export class AppComponent implements OnInit {
 
   getDataNoBatch() {
 	//TODO: Exercise 1
-    let piAssetDatabaseWebId = this.piWebAPIService.webIdHelper.generateWebIdByPath('\\\\PISRV01\\Weather', PIAssetDatabase.name, null);
+    let piAssetDatabaseWebId = this.piWebAPIService.webIdHelper.generateWebIdByPath('\\\\OAKPIAF\\Facilities-1600 Alvarado\\SLTC', PIAssetDatabase.name, null);
     Observable.forkJoin(
         this.piWebAPIService.assetDatabase.getElements(piAssetDatabaseWebId, null, null, null, null, null, null, "items.webId;items.name;items.path"),
         this.piWebAPIService.assetDatabase.findElementAttributes(piAssetDatabaseWebId, null, null, "Latitude", null, null, null, null, null, null, null, null, "items.webId;items.name;items.path"),
@@ -166,7 +166,7 @@ export class AppComponent implements OnInit {
 
   getDataWithBatch() {
 
-    let baseUrl = "https://pisrv01.pischool.int/piwebapi/";
+    let baseUrl = "https://oakpicoresight.osisoft.int:8443/piwebapi/";
     let globalRequest : { [key: string]: PIRequest; } = {};
 	//TODO: Exercise 5	
     globalRequest['1'] = new PIRequest();
@@ -211,7 +211,8 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.piWebAPIService.configureInstance("https://pisrv01.pischool.int/piwebapi/", true);
+    //has my credentials
+    this.piWebAPIService.configureInstance("https://oakpicoresight.osisoft.int:8443/piwebapi/", true, "kfrank", "Dinosaur8!");
 	//For Exercise 1
     this.getDataNoBatch();
 	
@@ -227,4 +228,5 @@ export class AppComponent implements OnInit {
   onCitySelectedFromRightPane(selectedCity: City) {
     this.leftPane.applySelectCity(selectedCity);
   }
+  
 }

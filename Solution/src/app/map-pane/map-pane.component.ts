@@ -16,7 +16,7 @@ export class MapPaneComponent implements OnInit {
   selectedCity : City;
   lat: number = 40;
   lng: number = -100;
-  zoom: number = 4;
+  zoom: number = 10; // the larger the number, the more zoomed in
   map: any;
   markers: any;
   showTrend : boolean;
