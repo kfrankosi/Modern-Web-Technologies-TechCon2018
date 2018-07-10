@@ -84,7 +84,7 @@ export class MapPaneComponent implements OnInit {
       this.markers = [];
       this.showTrend = false;
   }
-
+  
   
 
 public getSantizeUrl(url : string) {
