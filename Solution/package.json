@@ -14,7 +14,7 @@
   "dependencies": {
     "@angular/common": "^6.0.9",
     "@angular/compiler": "^6.0.8",
-    "@angular/core": "^6.0.8",
+    "@angular/core": "^6.0.9",
     "@angular/http": "^6.0.9",
     "@angular/platform-browser": "^6.0.9",
     "@angular/platform-browser-dynamic": "^6.0.9",
@@ -22,6 +22,8 @@
     "angular-piwebapi": "^1.11.1",
     "core-js": "^2.4.1",
     "ng": "0.0.0-rc6",
+    "rxjs": "^5.1.0",
+    "rxjs-compat": "^6.2.1",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
