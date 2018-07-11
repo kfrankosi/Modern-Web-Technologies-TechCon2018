@@ -1,7 +1,3 @@
-
-
-
-
 export class City {
     webId : string;
     path: string;
