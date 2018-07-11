@@ -21,7 +21,7 @@ import { City } from './city'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
+    
 export class AppComponent implements OnInit {
   title = 'app';
   @ViewChild(RightPaneComponent)
